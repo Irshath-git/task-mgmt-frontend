@@ -25,6 +25,7 @@ export const NavItems = () => {
       href: '/',
       icon: <SquareKanban size={20} />,
       position: 'top',
+      active: pathname === '',
       button: false,
     },
     {
@@ -32,6 +33,7 @@ export const NavItems = () => {
       href: '/',
       icon: <BarChart size={20} />,
       position: 'top',
+      active: pathname === '',
       button: false,
     },
     {
@@ -40,12 +42,14 @@ export const NavItems = () => {
       icon: <Users size={20} />,
       position: 'top',
       button: false,
+      active: pathname === '',
     },
     {
       name: 'Settings',
       href: '/',
       icon: <Settings size={20} />,
       position: 'bottom',
+      active: pathname === '',
       button: false,
     },
   ];
